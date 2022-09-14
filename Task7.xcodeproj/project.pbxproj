@@ -9,23 +9,47 @@
 /* Begin PBXBuildFile section */
 		185293EB28C8CF5700CA31E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185293EA28C8CF5700CA31E0 /* AppDelegate.swift */; };
 		185293ED28C8CF5700CA31E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185293EC28C8CF5700CA31E0 /* SceneDelegate.swift */; };
-		185293EF28C8CF5700CA31E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185293EE28C8CF5700CA31E0 /* ViewController.swift */; };
 		185293F228C8CF5700CA31E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185293F028C8CF5700CA31E0 /* Main.storyboard */; };
 		185293F528C8CF5700CA31E0 /* Task7.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 185293F328C8CF5700CA31E0 /* Task7.xcdatamodeld */; };
 		185293F728C8CF5800CA31E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185293F628C8CF5800CA31E0 /* Assets.xcassets */; };
 		185293FA28C8CF5800CA31E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185293F828C8CF5800CA31E0 /* LaunchScreen.storyboard */; };
+		186B0B2A28CE448E00655F82 /* RecordProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186B0B2928CE448E00655F82 /* RecordProvider.swift */; };
+		188DE08D28CDE2B900F3C0B5 /* ChildRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DE08C28CDE2B900F3C0B5 /* ChildRecordViewController.swift */; };
+		188DE0A428CDF30F00F3C0B5 /* PersistentStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DE0A328CDF30F00F3C0B5 /* PersistentStorage.swift */; };
+		188DE0AF28CE009100F3C0B5 /* RecordDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DE0AE28CE009100F3C0B5 /* RecordDataRepository.swift */; };
+		188DE0B428CE02A500F3C0B5 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DE0B328CE02A500F3C0B5 /* Record.swift */; };
+		18974E5D28CFC62A001A07FF /* RecordEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18974E5B28CFC62A001A07FF /* RecordEntity+CoreDataClass.swift */; };
+		18974E5E28CFC62A001A07FF /* RecordEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18974E5C28CFC62A001A07FF /* RecordEntity+CoreDataProperties.swift */; };
+		18BFC9AD28CCD6800041C884 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BFC9AC28CCD6800041C884 /* RecordViewController.swift */; };
+		18BFC9B728CCE7200041C884 /* RecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BFC9B628CCE7200041C884 /* RecordViewModel.swift */; };
+		18F7D3F028D1F64100F18092 /* CDRecordExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D3EF28D1F64100F18092 /* CDRecordExtensions.swift */; };
+		18F7D3F628D1F7E200F18092 /* RecordVCExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D3F528D1F7E200F18092 /* RecordVCExtensions.swift */; };
+		18F7D3FC28D1F91E00F18092 /* ChildRecordVCExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D3FB28D1F91E00F18092 /* ChildRecordVCExtensions.swift */; };
+		18F7D3FF28D1F9C300F18092 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D3FE28D1F9C300F18092 /* UIViewControllerExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		185293E728C8CF5700CA31E0 /* Task7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Task7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		185293EA28C8CF5700CA31E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		185293EC28C8CF5700CA31E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		185293EE28C8CF5700CA31E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		185293F128C8CF5700CA31E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		185293F428C8CF5700CA31E0 /* Task7.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Task7.xcdatamodel; sourceTree = "<group>"; };
 		185293F628C8CF5800CA31E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		185293F928C8CF5800CA31E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		185293FB28C8CF5800CA31E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186B0B2928CE448E00655F82 /* RecordProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordProvider.swift; sourceTree = "<group>"; };
+		188DE08C28CDE2B900F3C0B5 /* ChildRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildRecordViewController.swift; sourceTree = "<group>"; };
+		188DE0A328CDF30F00F3C0B5 /* PersistentStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentStorage.swift; sourceTree = "<group>"; };
+		188DE0AE28CE009100F3C0B5 /* RecordDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordDataRepository.swift; sourceTree = "<group>"; };
+		188DE0B328CE02A500F3C0B5 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		18974E5B28CFC62A001A07FF /* RecordEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RecordEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		18974E5C28CFC62A001A07FF /* RecordEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RecordEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		18BFC9AC28CCD6800041C884 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		18BFC9B628CCE7200041C884 /* RecordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewModel.swift; sourceTree = "<group>"; };
+		18F7D3EF28D1F64100F18092 /* CDRecordExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDRecordExtensions.swift; sourceTree = "<group>"; };
+		18F7D3F528D1F7E200F18092 /* RecordVCExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordVCExtensions.swift; sourceTree = "<group>"; };
+		18F7D3FB28D1F91E00F18092 /* ChildRecordVCExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildRecordVCExtensions.swift; sourceTree = "<group>"; };
+		18F7D3FE28D1F9C300F18092 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +82,116 @@
 		185293E928C8CF5700CA31E0 /* Task7 */ = {
 			isa = PBXGroup;
 			children = (
-				185293EA28C8CF5700CA31E0 /* AppDelegate.swift */,
-				185293EC28C8CF5700CA31E0 /* SceneDelegate.swift */,
-				185293EE28C8CF5700CA31E0 /* ViewController.swift */,
-				185293F028C8CF5700CA31E0 /* Main.storyboard */,
-				185293F628C8CF5800CA31E0 /* Assets.xcassets */,
-				185293F828C8CF5800CA31E0 /* LaunchScreen.storyboard */,
-				185293FB28C8CF5800CA31E0 /* Info.plist */,
 				185293F328C8CF5700CA31E0 /* Task7.xcdatamodeld */,
+				185293F628C8CF5800CA31E0 /* Assets.xcassets */,
+				185293FB28C8CF5800CA31E0 /* Info.plist */,
+				1852940728C8D12900CA31E0 /* Controllers */,
+				18F7D3F328D1F6D700F18092 /* CoreData */,
+				1852940528C8D10300CA31E0 /* Models */,
+				1852940828C8D14300CA31E0 /* Supporting Files */,
+				18BFC9B528CCE6DC0041C884 /* ViewModels */,
+				1852940628C8D11B00CA31E0 /* Views */,
 			);
 			path = Task7;
+			sourceTree = "<group>";
+		};
+		1852940528C8D10300CA31E0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				188DE0B328CE02A500F3C0B5 /* Record.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1852940628C8D11B00CA31E0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				185293F828C8CF5800CA31E0 /* LaunchScreen.storyboard */,
+				185293F028C8CF5700CA31E0 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1852940728C8D12900CA31E0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18F7D3F928D1F7EB00F18092 /* Extensions */,
+				18F7D3F428D1F77B00F18092 /* DataProvider */,
+				18BFC9AC28CCD6800041C884 /* RecordViewController.swift */,
+				188DE08C28CDE2B900F3C0B5 /* ChildRecordViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1852940828C8D14300CA31E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				185293EA28C8CF5700CA31E0 /* AppDelegate.swift */,
+				185293EC28C8CF5700CA31E0 /* SceneDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		188DE0AD28CE006C00F3C0B5 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				188DE0AE28CE009100F3C0B5 /* RecordDataRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		18BFC9B528CCE6DC0041C884 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				18BFC9B628CCE7200041C884 /* RecordViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		18F7D3EE28D1F60200F18092 /* CDExtentions */ = {
+			isa = PBXGroup;
+			children = (
+				18F7D3EF28D1F64100F18092 /* CDRecordExtensions.swift */,
+			);
+			path = CDExtentions;
+			sourceTree = "<group>";
+		};
+		18F7D3F228D1F69600F18092 /* ManagedObjectModels */ = {
+			isa = PBXGroup;
+			children = (
+				18974E5B28CFC62A001A07FF /* RecordEntity+CoreDataClass.swift */,
+				18974E5C28CFC62A001A07FF /* RecordEntity+CoreDataProperties.swift */,
+			);
+			path = ManagedObjectModels;
+			sourceTree = "<group>";
+		};
+		18F7D3F328D1F6D700F18092 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				188DE0A328CDF30F00F3C0B5 /* PersistentStorage.swift */,
+				188DE0AD28CE006C00F3C0B5 /* Repository */,
+				18F7D3EE28D1F60200F18092 /* CDExtentions */,
+				18F7D3F228D1F69600F18092 /* ManagedObjectModels */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		18F7D3F428D1F77B00F18092 /* DataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				186B0B2928CE448E00655F82 /* RecordProvider.swift */,
+			);
+			path = DataProvider;
+			sourceTree = "<group>";
+		};
+		18F7D3F928D1F7EB00F18092 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				18F7D3F528D1F7E200F18092 /* RecordVCExtensions.swift */,
+				18F7D3FB28D1F91E00F18092 /* ChildRecordVCExtensions.swift */,
+				18F7D3FE28D1F9C300F18092 /* UIViewControllerExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +264,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F7D3FF28D1F9C300F18092 /* UIViewControllerExtensions.swift in Sources */,
 				185293F528C8CF5700CA31E0 /* Task7.xcdatamodeld in Sources */,
-				185293EF28C8CF5700CA31E0 /* ViewController.swift in Sources */,
+				18F7D3F028D1F64100F18092 /* CDRecordExtensions.swift in Sources */,
+				188DE0B428CE02A500F3C0B5 /* Record.swift in Sources */,
+				18F7D3F628D1F7E200F18092 /* RecordVCExtensions.swift in Sources */,
+				186B0B2A28CE448E00655F82 /* RecordProvider.swift in Sources */,
 				185293EB28C8CF5700CA31E0 /* AppDelegate.swift in Sources */,
+				18BFC9B728CCE7200041C884 /* RecordViewModel.swift in Sources */,
+				188DE0AF28CE009100F3C0B5 /* RecordDataRepository.swift in Sources */,
+				18BFC9AD28CCD6800041C884 /* RecordViewController.swift in Sources */,
+				188DE08D28CDE2B900F3C0B5 /* ChildRecordViewController.swift in Sources */,
+				188DE0A428CDF30F00F3C0B5 /* PersistentStorage.swift in Sources */,
+				18974E5E28CFC62A001A07FF /* RecordEntity+CoreDataProperties.swift in Sources */,
+				18974E5D28CFC62A001A07FF /* RecordEntity+CoreDataClass.swift in Sources */,
+				18F7D3FC28D1F91E00F18092 /* ChildRecordVCExtensions.swift in Sources */,
 				185293ED28C8CF5700CA31E0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
