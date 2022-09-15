@@ -14,7 +14,6 @@
 		185293F728C8CF5800CA31E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185293F628C8CF5800CA31E0 /* Assets.xcassets */; };
 		185293FA28C8CF5800CA31E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185293F828C8CF5800CA31E0 /* LaunchScreen.storyboard */; };
 		186B0B2A28CE448E00655F82 /* RecordProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186B0B2928CE448E00655F82 /* RecordProvider.swift */; };
-		188DE08D28CDE2B900F3C0B5 /* ChildRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DE08C28CDE2B900F3C0B5 /* ChildRecordViewController.swift */; };
 		188DE0A428CDF30F00F3C0B5 /* PersistentStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DE0A328CDF30F00F3C0B5 /* PersistentStorage.swift */; };
 		188DE0AF28CE009100F3C0B5 /* RecordDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DE0AE28CE009100F3C0B5 /* RecordDataRepository.swift */; };
 		188DE0B428CE02A500F3C0B5 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DE0B328CE02A500F3C0B5 /* Record.swift */; };
@@ -24,7 +23,6 @@
 		18BFC9B728CCE7200041C884 /* RecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BFC9B628CCE7200041C884 /* RecordViewModel.swift */; };
 		18F7D3F028D1F64100F18092 /* CDRecordExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D3EF28D1F64100F18092 /* CDRecordExtensions.swift */; };
 		18F7D3F628D1F7E200F18092 /* RecordVCExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D3F528D1F7E200F18092 /* RecordVCExtensions.swift */; };
-		18F7D3FC28D1F91E00F18092 /* ChildRecordVCExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D3FB28D1F91E00F18092 /* ChildRecordVCExtensions.swift */; };
 		18F7D3FF28D1F9C300F18092 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7D3FE28D1F9C300F18092 /* UIViewControllerExtensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +36,6 @@
 		185293F928C8CF5800CA31E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		185293FB28C8CF5800CA31E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		186B0B2928CE448E00655F82 /* RecordProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordProvider.swift; sourceTree = "<group>"; };
-		188DE08C28CDE2B900F3C0B5 /* ChildRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildRecordViewController.swift; sourceTree = "<group>"; };
 		188DE0A328CDF30F00F3C0B5 /* PersistentStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentStorage.swift; sourceTree = "<group>"; };
 		188DE0AE28CE009100F3C0B5 /* RecordDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordDataRepository.swift; sourceTree = "<group>"; };
 		188DE0B328CE02A500F3C0B5 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
@@ -48,7 +45,6 @@
 		18BFC9B628CCE7200041C884 /* RecordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewModel.swift; sourceTree = "<group>"; };
 		18F7D3EF28D1F64100F18092 /* CDRecordExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDRecordExtensions.swift; sourceTree = "<group>"; };
 		18F7D3F528D1F7E200F18092 /* RecordVCExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordVCExtensions.swift; sourceTree = "<group>"; };
-		18F7D3FB28D1F91E00F18092 /* ChildRecordVCExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildRecordVCExtensions.swift; sourceTree = "<group>"; };
 		18F7D3FE28D1F9C300F18092 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,7 +114,6 @@
 				18F7D3F928D1F7EB00F18092 /* Extensions */,
 				18F7D3F428D1F77B00F18092 /* DataProvider */,
 				18BFC9AC28CCD6800041C884 /* RecordViewController.swift */,
-				188DE08C28CDE2B900F3C0B5 /* ChildRecordViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -188,7 +183,6 @@
 			isa = PBXGroup;
 			children = (
 				18F7D3F528D1F7E200F18092 /* RecordVCExtensions.swift */,
-				18F7D3FB28D1F91E00F18092 /* ChildRecordVCExtensions.swift */,
 				18F7D3FE28D1F9C300F18092 /* UIViewControllerExtensions.swift */,
 			);
 			path = Extensions;
@@ -274,11 +268,9 @@
 				18BFC9B728CCE7200041C884 /* RecordViewModel.swift in Sources */,
 				188DE0AF28CE009100F3C0B5 /* RecordDataRepository.swift in Sources */,
 				18BFC9AD28CCD6800041C884 /* RecordViewController.swift in Sources */,
-				188DE08D28CDE2B900F3C0B5 /* ChildRecordViewController.swift in Sources */,
 				188DE0A428CDF30F00F3C0B5 /* PersistentStorage.swift in Sources */,
 				18974E5E28CFC62A001A07FF /* RecordEntity+CoreDataProperties.swift in Sources */,
 				18974E5D28CFC62A001A07FF /* RecordEntity+CoreDataClass.swift in Sources */,
-				18F7D3FC28D1F91E00F18092 /* ChildRecordVCExtensions.swift in Sources */,
 				185293ED28C8CF5700CA31E0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

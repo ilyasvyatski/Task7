@@ -10,7 +10,7 @@
         <!--Records-->
         <scene sceneID="mfT-ET-e0v">
             <objects>
-                <tableViewController id="yR8-qR-nah" customClass="TableViewController" customModule="Task7" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="recordViewController" id="yR8-qR-nah" customClass="TableViewController" customModule="Task7" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Q8W-wD-DH7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -31,7 +31,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="0 Child Record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YAD-gZ-agP">
-                                            <rect key="frame" x="20" y="31" width="84" height="15"/>
+                                            <rect key="frame" x="20" y="31.5" width="83.5" height="14.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <nil key="textColor"/>
@@ -53,48 +53,10 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
-                    <connections>
-                        <segue destination="QAu-fz-cbK" kind="show" identifier="childRecords" id="xoE-S3-O7A"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BMF-K6-TYQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="699" y="115"/>
-        </scene>
-        <!--Child Table View Controller-->
-        <scene sceneID="jtG-pV-fCD">
-            <objects>
-                <tableViewController id="QAu-fz-cbK" customClass="ChildTableViewController" customModule="Task7" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="dhM-F5-fQ8">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="childCell" id="55V-N7-Yn3">
-                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="55V-N7-Yn3" id="FTS-Ip-QIe">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="QAu-fz-cbK" id="X9x-tl-RYY"/>
-                            <outlet property="delegate" destination="QAu-fz-cbK" id="jiF-P7-ni6"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" id="zsK-vf-4ol">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="ITU-Iv-u5Z">
-                            <connections>
-                                <action selector="addChildRecordButton:" destination="QAu-fz-cbK" id="iq0-ci-aaw"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="g5q-qU-atn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1500" y="115"/>
+            <point key="canvasLocation" x="777" y="115"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="VVn-q4-bJO">

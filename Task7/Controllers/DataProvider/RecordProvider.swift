@@ -32,7 +32,7 @@ class RecordProvider {
         return controller
     }()
     
-    func create(title: String) {
+    /*func createRecord(title: String) {
         let recordEntity = RecordEntity(context: PersistentStorage.shared.context)
         recordEntity.id = UUID()
         recordEntity.title = title
@@ -40,12 +40,22 @@ class RecordProvider {
         PersistentStorage.shared.saveContext()
     }
     
-    func addChild(parentRecord: RecordEntity, childTitle: String) {
+    func createChildRecord(parentRecord: RecordEntity?, childTitle: String) {
         let childEntity = RecordEntity(context: PersistentStorage.shared.context)
         childEntity.id = UUID()
         childEntity.title = childTitle
         childEntity.parent = parentRecord
         
         PersistentStorage.shared.saveContext()
+    }*/
+    
+    func addRecord(parentRecord: RecordEntity?, title: String) {
+        let recordEntity = RecordEntity(context: PersistentStorage.shared.context)
+        recordEntity.id = UUID()
+        recordEntity.title = title
+        recordEntity.parent = parentRecord
+        
+        PersistentStorage.shared.saveContext()
     }
 }
+
